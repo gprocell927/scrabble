@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": 
+    "url": "git+https://github.com/gprocell927/scrabble"
   },
   "author": "Gabrielle Procell",
   "license": "MIT",
   "bugs": {
-    "url":
+    "url":"https://github.com/gprocell927/scrabble"
   },
-  "homepage": ,
+  "homepage": "https://github.com/gprocell927/scrabble",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.14.0",
