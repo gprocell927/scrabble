@@ -30,7 +30,6 @@
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.16.0",
     "babel-register": "^6.14.0",
-    "chai": "^3.5.0",
     "css-loader": "^0.25.0",
     "enzyme": "^2.4.1",
     "escape-html": "^1.0.3",
