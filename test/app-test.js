@@ -9,6 +9,11 @@ it('renders as a <div>', () => {
   assert.deepEqual(wrapper.type(), 'div');
 });
 
-it('has a function called "scoreWord()"', () => {
-
-})
+it('will set inputValue to whatever word is in the input field', () => {
+  const wrapper = mount(<Application />);
+  wrapper.find('.inputField').simulate('change',
+    { target:
+      { value: 'Hello' },
+    });
+  assert.equal(wrapper.state().inputValue, 'Hello');
+});
