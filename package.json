@@ -52,5 +52,7 @@
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.15.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
 }
